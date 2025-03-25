@@ -1,8 +1,50 @@
+/* Use more efficient selectors */
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+}
+
+/* Group related styles */
+.valentine-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 1rem;
+}
+
+/* Use shorthand properties where possible */
+.buttons-container {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+/* Add will-change for elements that will animate */
+.yes-button {
+  will-change: transform;
+  transition: transform 0.3s ease;
+}
+
+.yes-button:hover {
+  transform: scale(1.05);
+}
+
+/* Use more specific selectors to avoid conflicts */
+.valentine-message {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+  .buttons-container {
+    flex-direction: column;
+  }
 }
 
 .logo {
