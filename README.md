@@ -1,7 +1,8 @@
-```markdown:/Users/silverk/Silver_K/Learning_K/GitHub_Project/will-you-be-my-valentine/README.md
 # Will You Be My Valentine?
 
 A fun interactive Valentine's Day project to bring a smile to my special person's face!
+
+Made with love for Pote Pote! ❤️
 
 ## Demo
 
@@ -53,6 +54,3 @@ You can customize the messages and images in the `App.tsx` file to make it more 
 This project is inspired by:
 - [https://gist.github.com/tnarla/0c09a11fea366145ba684fe6ebf578c5](https://gist.github.com/tnarla/0c09a11fea366145ba684fe6ebf578c5)
 - [https://www.tiktok.com/@mewtru/video/7331131143112166698](https://www.tiktok.com/@mewtru/video/7331131143112166698)
-
-Made with love for Pote Pote! ❤️
-```
