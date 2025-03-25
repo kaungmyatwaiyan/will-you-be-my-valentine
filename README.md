@@ -1,27 +1,58 @@
-# will-you-be-my-valentine
+```markdown:/Users/silverk/Silver_K/Learning_K/GitHub_Project/will-you-be-my-valentine/README.md
+# Will You Be My Valentine?
 
-Demo : https://saurabhnemade.github.io/will-you-be-my-valentine/
+A fun interactive Valentine's Day project to bring a smile to my special person's face!
 
-This is a fun project for valentines day to bring smile on face of your special person!!
+## Demo
 
-This project is inspired from
-https://gist.github.com/tnarla/0c09a11fea366145ba684fe6ebf578c5 & https://www.tiktok.com/@mewtru/video/7331131143112166698
+Check out the live demo: [https://kaungmyatwaiyan.github.io/will-you-be-my-valentine/](https://kaungmyatwaiyan.github.io/will-you-be-my-valentine/)
 
-# How to start
+## Features
+
+- Interactive "Yes" and "No" buttons
+- The "Yes" button grows larger as the user tries to say "No"
+- Cute animations and messages
+- Personalized love message on acceptance
+- Mobile-friendly design
+
+## Technologies Used
+
+- React
+- TypeScript
+- Vite
+- Tailwind CSS
+
+## How to Run Locally
+
+```bash
+# Clone the repository
+git clone https://github.com/kaungmyatwaiyan/will-you-be-my-valentine.git
+
+# Navigate to the project directory
+cd will-you-be-my-valentine
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
 ```
-npm install -g pnpm
-pnpm i
-pnpm run dev
+
+## How to Deploy
+
+```bash
+npm run deploy
 ```
 
-# Preview
+## Customization
 
-![image description](demo.gif)
+You can customize the messages and images in the `App.tsx` file to make it more personal for your valentine.
 
+## Inspiration
 
-# How to deploy it
+This project is inspired by:
+- [https://gist.github.com/tnarla/0c09a11fea366145ba684fe6ebf578c5](https://gist.github.com/tnarla/0c09a11fea366145ba684fe6ebf578c5)
+- [https://www.tiktok.com/@mewtru/video/7331131143112166698](https://www.tiktok.com/@mewtru/video/7331131143112166698)
+
+Made with love for Pote Pote! ❤️
 ```
-pnpm run deploy
-```
-
-Made with love in Berlin!❤️
