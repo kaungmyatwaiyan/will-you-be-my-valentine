@@ -18,7 +18,7 @@ export default function Page() {
   }, []);
 
   // Memoize the button text selection
-  const getNoButtonText = () => {
+  const noButtonText = useMemo(() => {
     const phrases = [
       "No",
       "Are you sure?",
